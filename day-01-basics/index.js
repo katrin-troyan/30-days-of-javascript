@@ -29,6 +29,6 @@ console.log(userEmail);
 console.log(typeof userEmail);
 /*Task 7*/
 const year = 2025;
-let birthYear = 1956;
+let birthYear = 1985;
 const calculatedAge = year - birthYear;
 console.log(calculatedAge);

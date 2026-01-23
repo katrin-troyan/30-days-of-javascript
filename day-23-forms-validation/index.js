@@ -31,14 +31,14 @@
 // очистити форму
 // (підказка: form.reset())
 
-const form = document.querySelector("#registerForm");
+const formRegister = document.querySelector("#registerForm");
 const btnSummit = document.querySelector("button");
 const inputName = document.querySelector("#name");
 const inputEmail = document.querySelector("#email");
 const inputPassword = document.querySelector("#password");
 const error = document.querySelector("#error");
 
-form.addEventListener("submit", function (e) {
+formRegister.addEventListener("submit", function (e) {
   e.preventDefault();
   console.log("Form submitted");
   const nameForm = inputName.value.trim();
